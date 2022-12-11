@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitnes.in</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+  background: url(img/photo.jpg);
+    
+    
+
+}
+.left{
+   /* border: 2px solid red;*/
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    
+    display: inline block;
+
+}
+.center{
+   /* border: 2px solid green;*/
+    display:  block;
+    width: 33%;
+    margin: 20px auto;
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+   /* border: 2px solid blue;*/
+    display: inline block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+}
+.navbar li a:hover ,.navbar li a.active{
+    color: gray;
+    text-decoration: underline;
+    
+} 
+.left img{
+    width: 153px;
+}
+.left div{
+    text-align: center;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: green;
+    color: yellow;
+    padding: 4px 14px;
+   /* border: 2px gray solid;*/
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: rgb(42, 37, 37);
+}
+.container{
+  /*  border: 2px green solid;*/
+    margin: 140px 82px;
+    padding: 75px 2px;
+    border-radius: 10px;
+    width: 33%;
+}
+.form-group input{
+text-align: center;
+display: block;
+width:174px;
+padding: 6px;
+/*border: 2px solid black;*/
+margin: 3px auto;
+border-radius: 10px;
+font-size: 16px;
+
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin:20px auto;
+
+}
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+
+          <img src="D:\websites\img\logo1.jpg" alt="logo">
+          <div>
+            vinay Fitnes
+          </div>
+
+        
+         
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="https:www.google.com" target="_blank">About us</a> </li>
+                <li><a href="tut5.html" target="_blank">Contact us</a> </li>
+                <li><a href="#">Fitnes test</a> </li>
+    
+              </ul>
+        
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+            
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of lucknow now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="gym" placeholder="Enter your name">
+                <input type="text" name="gym" placeholder="Enter your age">                                        <input type="text" name="gym" placeholder="Enter your mob no">
+                <input type="text" name="gym" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
